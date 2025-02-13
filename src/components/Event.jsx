@@ -5,9 +5,9 @@ import Slider from 'react-slick';
 
 const Event = () => {
   const landscapeImages = [
-    './images/landscape-1.webp',
-    './images/landscape-2.webp',
-    './images/landscape-3.webp',
+    './images/landscape4.webp',
+    './images/landscape2.webp',
+    './images/landscape3.webp',
   ];
 
   const landscapeSettings1 = {
@@ -16,8 +16,8 @@ const Event = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    speed: 3000,
-    autoplaySpeed: 3000,
+    speed: 4000,
+    autoplaySpeed: 4000,
     cssEase: 'ease-in-out',
     rtl: false,
     arrows: false,
@@ -29,8 +29,8 @@ const Event = () => {
     slidesToShow: 1,
     slidesToScroll: 1,
     autoplay: true,
-    speed: 3000,
-    autoplaySpeed: 3000,
+    speed: 4000,
+    autoplaySpeed: 4000,
     cssEase: 'ease-in-out',
     rtl: true,
     arrows: false,
@@ -93,7 +93,7 @@ const Event = () => {
                 <p>Kediaman Mempelai Wanita</p>
                 <p>Jl. Cilandak KKO, Jakarta Selatan</p>
                 <a
-                  href=""
+                  href="https://maps.app.goo.gl/JNtvKC85kEvGGiSL7"
                   className="inline-block p-1 border-2 w-36 text-center rounded-full text-sm hover:bg-purple-700 hover:text-purple-50 my-5"
                 >
                   Google Maps
@@ -150,7 +150,7 @@ const Event = () => {
                 <p>Kediaman Mempelai Wanita</p>
                 <p>Jl. Cilandak KKO, Jakarta Selatan</p>
                 <a
-                  href=""
+                  href="https://maps.app.goo.gl/JNtvKC85kEvGGiSL7"
                   className="inline-block p-1 border-2 w-36 text-center rounded-full text-sm hover:bg-purple-700 hover:text-white my-5"
                 >
                   Google Maps
@@ -207,7 +207,7 @@ const Event = () => {
                 <p>Kediaman Mempelai Wanita</p>
                 <p>Jl. Cilandak KKO, Jakarta Selatan</p>
                 <a
-                  href=""
+                  href="https://maps.app.goo.gl/JNtvKC85kEvGGiSL7"
                   className="inline-block p-1 border-2 w-36 text-center rounded-full text-sm hover:bg-purple-700 hover:text-white my-5"
                 >
                   Google Maps

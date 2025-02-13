@@ -2,9 +2,9 @@ import Slider from 'react-slick';
 
 const Hero = () => {
   const IMAGES = [
-    './images/couple-1.webp',
-    './images/couple-2.webp',
-    './images/couple-3.webp',
+    './images/brideandgroom2.webp',
+    './images/brideandgroom3.webp',
+    './images/brideandgroom6.webp',
   ];
 
   // Base slider settings
@@ -24,7 +24,7 @@ const Hero = () => {
   };
 
   return (
-    <section id="hero" className="relative w-full h-screen overflow-hidden">
+    <section id="hero" className="relative w-full h-screen overflow-hidden font-arima">
       <div className="relative w-full">
         <Slider {...settings} className="w-full h-screen relative">
           {IMAGES.map((img, index) => (
@@ -43,10 +43,7 @@ const Hero = () => {
       <div className="absolute top-0 bottom-0 left-0 right-0 bg-gradient-to-b from-purple-50/20 from-10% via-purple-50/20 via-30% to-purple-950/50 to-90% z-40"></div>
       <div className="absolute w-full px-5 bottom-20 left-1/2 -translate-x-1/2 text-white text-shadow z-50 py-3 rounded-t-3xl text-center">
         <h3 className="font-cormorant text-lg">THE WEDDING OF</h3>
-        <h1
-          data-aos="zoom-out"
-          className="font-cormorant font-bold text-4xl my-3"
-        >
+        <h1 data-aos="zoom-out" className="font-arima text-4xl my-3">
           Putri & Putra
         </h1>
         <div className="flex w-full justify-center py-3">

@@ -5,14 +5,14 @@ const LoveStory = () => {
       <div className="flex justify-center mb-5">
         <img
           data-aos="fade-down-right"
-          src="./images/square-1.webp"
+          src="./images/bride4.webp"
           alt=""
           className="inline-block w-40 h-40 rounded-t-full rounded-bl-full"
           lazyload="true"
         />
         <img
           data-aos="fade-up-left"
-          src="./images/square-2.webp"
+          src="./images/groom4.webp"
           alt=""
           className="inline-block w-40 h-40 rounded-b-full rounded-tr-full mt-40"
           lazyload="true"

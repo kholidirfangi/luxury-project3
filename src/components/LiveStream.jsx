@@ -15,7 +15,9 @@ const LiveStream = () => {
         data-aos="fade-down"
         className="border-2 px-4 py-1 mt-5 rounded-full hover:bg-purple-50 hover:text-purple-700"
       >
-        <a href="">Tonton Live Streaming</a>
+        <a href="https://www.instagram.com/inviteme25/">
+          Tonton Live Streaming
+        </a>
       </button>
     </section>
   );

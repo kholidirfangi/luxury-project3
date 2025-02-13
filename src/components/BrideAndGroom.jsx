@@ -5,10 +5,16 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import Slider from 'react-slick';
 
 // Constants outside component to prevent recreation
-const IMAGES = [
-  './images/couple-1.webp',
-  './images/couple-2.webp',
-  './images/couple-3.webp',
+const bride = [
+  './images/bride4.webp',
+  './images/bride7.webp',
+  './images/bride8.webp',
+];
+
+const groom = [
+  './images/groom1.webp',
+  './images/groom2.webp',
+  './images/groom4.webp',
 ];
 
 // Base slider settings
@@ -50,25 +56,6 @@ const Profile = memo(({ name, fatherName, motherName, instagramLink }) => (
 
 Profile.displayName = 'Profile';
 
-// Memoized Slider Component
-const ImageSlider = memo(({ settings }) => (
-  <Slider {...settings} className="w-56 h-80 relative">
-    {IMAGES.map((img, index) => (
-      <div key={img} className="w-56 h-80">
-        <img
-          src={img}
-          alt={`Couple photo ${index + 1}`}
-          className="w-full h-80 object-cover"
-          loading="lazy"
-          decoding="async"
-        />
-      </div>
-    ))}
-  </Slider>
-));
-
-ImageSlider.displayName = 'ImageSlider';
-
 const BrideAndGroom = () => {
   // Memoize slider settings
   const sliderSettings1 = useMemo(
@@ -99,7 +86,19 @@ const BrideAndGroom = () => {
           >
             THE BRIDE
           </div>
-          <ImageSlider settings={sliderSettings1} />
+          <Slider {...sliderSettings1} className="w-56 h-80 relative">
+            {bride.map((img, index) => (
+              <div key={img} className="w-56 h-80">
+                <img
+                  src={img}
+                  alt={`bride photo ${index + 1}`}
+                  className="w-full h-80 object-cover"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </div>
+            ))}
+          </Slider>
         </div>
         <Profile
           name="Putri Cantika Sari"
@@ -118,7 +117,19 @@ const BrideAndGroom = () => {
           >
             THE GROOM
           </div>
-          <ImageSlider settings={sliderSettings2} />
+          <Slider {...sliderSettings2} className="w-56 h-80 relative">
+            {groom.map((img, index) => (
+              <div key={img} className="w-56 h-80">
+                <img
+                  src={img}
+                  alt={`groom photo ${index + 1}`}
+                  className="w-full h-80 object-cover"
+                  loading="lazy"
+                  decoding="async"
+                />
+              </div>
+            ))}
+          </Slider>
         </div>
         <Profile
           name="Putra Andika Dwi Pangga"

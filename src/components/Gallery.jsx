@@ -25,25 +25,25 @@ const Gallery = () => {
           <div className="grid grid-cols-4 gap-2">
             <img
               data-aos="zoom-in"
-              src="./images/square-1.webp"
+              src="./images/brideandgroom2.webp"
               alt=""
               className="rounded-lg h-28 w-full"
             />
             <img
               data-aos="zoom-in"
-              src="./images/square-2.webp"
+              src="./images/brideandgroom3.webp"
               alt=""
               className="rounded-lg h-28 w-full"
             />
             <img
               data-aos="zoom-in"
-              src="./images/couple-2.webp"
+              src="./images/bride4.webp"
               alt=""
               className="rounded-lg h-28 w-full"
             />
             <img
               data-aos="zoom-in"
-              src="./images/couple-1.webp"
+              src="./images/groom2.webp"
               alt=""
               className="rounded-lg h-28 w-full"
             />
@@ -53,13 +53,13 @@ const Gallery = () => {
           <div className="grid grid-cols-3 gap-2">
             <img
               data-aos="zoom-in"
-              src="./images/landscape-2.webp"
+              src="./images/landscape2.webp"
               alt=""
               className="rounded-lg h-40 w-full col-span-2"
             />
             <img
               data-aos="zoom-in"
-              src="./images/square-1.webp"
+              src="./images/brideandgroom6.webp"
               alt=""
               className="rounded-lg h-40 w-full"
             />
